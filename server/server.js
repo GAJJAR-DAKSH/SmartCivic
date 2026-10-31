@@ -180,6 +180,15 @@ function optionalAuth(req, res, next) {
 
 // ======================= API ENDPOINTS =======================
 
+// Health Check
+app.get('/api/health', (req, res) => {
+  res.status(200).json({
+    success: true,
+    message: 'SmartCivic Backend is running!',
+    status: 'OK'
+  });
+});
+
 // 1. Auth: Obtain JWT Token (DRF /api/auth/token/ compatible)
 app.post('/api/auth/token/', (req, res) => {
   const { username, password } = req.body;
