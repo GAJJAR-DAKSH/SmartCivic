@@ -1,6 +1,6 @@
 import { Issue, Department, Category, WorkerInfo, AuditRecord, AnalyticsData, User } from '../types';
 
-const API_BASE = '/api';
+const API_BASE = `${import.meta.env.VITE_API_URL || ''}/api`;
 
 function getAuthHeader(): Record<string, string> {
   const token = localStorage.getItem('smartcivic_token');
