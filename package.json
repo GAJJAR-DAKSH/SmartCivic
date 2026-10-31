@@ -1,0 +1,22 @@
+{
+  "name": "smartcivic-monorepo",
+  "version": "1.0.0",
+  "description": "SmartCivic Municipal Grievance & Rapid Redressal Monorepo",
+  "scripts": {
+    "dev": "node start-all.js",
+    "start": "node start-all.js",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  },
+  "keywords": [
+    "smartcivic",
+    "grievance-management",
+    "municipal",
+    "gis",
+    "full-stack"
+  ],
+  "author": "SmartCivic Team (Nirma University)",
+  "license": "MIT"
+}
+
