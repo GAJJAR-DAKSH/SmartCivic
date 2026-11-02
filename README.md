@@ -2,10 +2,7 @@
 
 > **Full-Stack Development Innovative Assignment**  
 > **Institution:** Nirma University, Institute of Technology  
-> **Department:** Department of Computer Science and Engineering  
-> **Authors:** Donda Parth (25BCE504), Gajjar Daksh (25BCE507)  
-> **Faculty Advisor:** Dr. Sanjay Patel  
-
+> **Department:** Department of Computer Science and Engineering 
 ---
 
 ## 🌟 Executive Summary & Mission
